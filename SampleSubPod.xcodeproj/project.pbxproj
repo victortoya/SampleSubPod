@@ -7,31 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2FCE1DC28C9D8F6004EFA05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCE1DB28C9D8F6004EFA05 /* AppDelegate.swift */; };
-		F2FCE1E528C9D8F6004EFA05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FCE1E428C9D8F6004EFA05 /* Assets.xcassets */; };
-		F2FCE1E828C9D8F6004EFA05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FCE1E628C9D8F6004EFA05 /* LaunchScreen.storyboard */; };
-		F2FCE1F128C9D95D004EFA05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCE1EF28C9D95D004EFA05 /* ViewController.swift */; };
-		F2FCE1F228C9D95D004EFA05 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2FCE1F028C9D95D004EFA05 /* ViewController.xib */; };
-		F2FCE1F528C9DA98004EFA05 /* SampleSubColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCE1F428C9DA97004EFA05 /* SampleSubColor.swift */; };
-		F2FCE1FB28C9DB2D004EFA05 /* SampleSubPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCE1F928C9DB2D004EFA05 /* SampleSubPopUpViewController.swift */; };
-		F2FCE1FC28C9DB2D004EFA05 /* SampleSubPopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2FCE1FA28C9DB2D004EFA05 /* SampleSubPopUpViewController.xib */; };
+		F2A03CCE28CF372E00C027D6 /* SampleSubPod.h in Headers */ = {isa = PBXBuildFile; fileRef = F2A03CCD28CF372E00C027D6 /* SampleSubPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A03CDA28CF375100C027D6 /* SampleSubPopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A03CD728CF375100C027D6 /* SampleSubPopUpViewController.xib */; };
+		F2A03CDB28CF375100C027D6 /* SampleSubPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A03CD828CF375100C027D6 /* SampleSubPopUpViewController.swift */; };
+		F2A03CDD28CF377800C027D6 /* SampleSubColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A03CDC28CF377800C027D6 /* SampleSubColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F2FCE1D828C9D8F6004EFA05 /* SampleSubPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSubPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2FCE1DB28C9D8F6004EFA05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2FCE1E428C9D8F6004EFA05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F2FCE1E728C9D8F6004EFA05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F2FCE1E928C9D8F7004EFA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2FCE1EF28C9D95D004EFA05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2FCE1F028C9D95D004EFA05 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		F2FCE1F428C9DA97004EFA05 /* SampleSubColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubColor.swift; sourceTree = "<group>"; };
-		F2FCE1F928C9DB2D004EFA05 /* SampleSubPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubPopUpViewController.swift; sourceTree = "<group>"; };
-		F2FCE1FA28C9DB2D004EFA05 /* SampleSubPopUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleSubPopUpViewController.xib; sourceTree = "<group>"; };
+		F2A03CCA28CF372E00C027D6 /* SampleSubPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleSubPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A03CCD28CF372E00C027D6 /* SampleSubPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleSubPod.h; sourceTree = "<group>"; };
+		F2A03CD728CF375100C027D6 /* SampleSubPopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleSubPopUpViewController.xib; sourceTree = "<group>"; };
+		F2A03CD828CF375100C027D6 /* SampleSubPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleSubPopUpViewController.swift; sourceTree = "<group>"; };
+		F2A03CDC28CF377800C027D6 /* SampleSubColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSubColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F2FCE1D528C9D8F6004EFA05 /* Frameworks */ = {
+		F2A03CC728CF372E00C027D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,64 +32,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F2FCE1CF28C9D8F6004EFA05 = {
+		F2A03CC028CF372E00C027D6 = {
 			isa = PBXGroup;
 			children = (
-				F2FCE1DA28C9D8F6004EFA05 /* SampleSubPod */,
-				F2FCE1D928C9D8F6004EFA05 /* Products */,
+				F2A03CCC28CF372E00C027D6 /* SampleSubPod */,
+				F2A03CCB28CF372E00C027D6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F2FCE1D928C9D8F6004EFA05 /* Products */ = {
+		F2A03CCB28CF372E00C027D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2FCE1D828C9D8F6004EFA05 /* SampleSubPod.app */,
+				F2A03CCA28CF372E00C027D6 /* SampleSubPod.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2FCE1DA28C9D8F6004EFA05 /* SampleSubPod */ = {
+		F2A03CCC28CF372E00C027D6 /* SampleSubPod */ = {
 			isa = PBXGroup;
 			children = (
-				F2FCE1F328C9D9C8004EFA05 /* Color */,
-				F2FCE1F628C9DAF6004EFA05 /* PopUp */,
-				F2FCE1DB28C9D8F6004EFA05 /* AppDelegate.swift */,
-				F2FCE1E428C9D8F6004EFA05 /* Assets.xcassets */,
-				F2FCE1EF28C9D95D004EFA05 /* ViewController.swift */,
-				F2FCE1F028C9D95D004EFA05 /* ViewController.xib */,
-				F2FCE1E628C9D8F6004EFA05 /* LaunchScreen.storyboard */,
-				F2FCE1E928C9D8F7004EFA05 /* Info.plist */,
+				F2A03CD428CF375100C027D6 /* Color */,
+				F2A03CD628CF375100C027D6 /* PopUp */,
+				F2A03CCD28CF372E00C027D6 /* SampleSubPod.h */,
 			);
 			path = SampleSubPod;
 			sourceTree = "<group>";
 		};
-		F2FCE1F328C9D9C8004EFA05 /* Color */ = {
+		F2A03CD428CF375100C027D6 /* Color */ = {
 			isa = PBXGroup;
 			children = (
-				F2FCE1F428C9DA97004EFA05 /* SampleSubColor.swift */,
+				F2A03CDC28CF377800C027D6 /* SampleSubColor.swift */,
 			);
 			path = Color;
 			sourceTree = "<group>";
 		};
-		F2FCE1F628C9DAF6004EFA05 /* PopUp */ = {
+		F2A03CD628CF375100C027D6 /* PopUp */ = {
 			isa = PBXGroup;
 			children = (
-				F2FCE1F928C9DB2D004EFA05 /* SampleSubPopUpViewController.swift */,
-				F2FCE1FA28C9DB2D004EFA05 /* SampleSubPopUpViewController.xib */,
+				F2A03CD728CF375100C027D6 /* SampleSubPopUpViewController.xib */,
+				F2A03CD828CF375100C027D6 /* SampleSubPopUpViewController.swift */,
 			);
 			path = PopUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F2A03CC528CF372E00C027D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A03CCE28CF372E00C027D6 /* SampleSubPod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		F2FCE1D728C9D8F6004EFA05 /* SampleSubPod */ = {
+		F2A03CC928CF372E00C027D6 /* SampleSubPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2FCE1EC28C9D8F7004EFA05 /* Build configuration list for PBXNativeTarget "SampleSubPod" */;
+			buildConfigurationList = F2A03CD128CF372E00C027D6 /* Build configuration list for PBXNativeTarget "SampleSubPod" */;
 			buildPhases = (
-				F2FCE1D428C9D8F6004EFA05 /* Sources */,
-				F2FCE1D528C9D8F6004EFA05 /* Frameworks */,
-				F2FCE1D628C9D8F6004EFA05 /* Resources */,
+				F2A03CC528CF372E00C027D6 /* Headers */,
+				F2A03CC628CF372E00C027D6 /* Sources */,
+				F2A03CC728CF372E00C027D6 /* Frameworks */,
+				F2A03CC828CF372E00C027D6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -106,25 +104,24 @@
 			);
 			name = SampleSubPod;
 			productName = SampleSubPod;
-			productReference = F2FCE1D828C9D8F6004EFA05 /* SampleSubPod.app */;
-			productType = "com.apple.product-type.application";
+			productReference = F2A03CCA28CF372E00C027D6 /* SampleSubPod.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F2FCE1D028C9D8F6004EFA05 /* Project object */ = {
+		F2A03CC128CF372E00C027D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					F2FCE1D728C9D8F6004EFA05 = {
+					F2A03CC928CF372E00C027D6 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = F2FCE1D328C9D8F6004EFA05 /* Build configuration list for PBXProject "SampleSubPod" */;
+			buildConfigurationList = F2A03CC428CF372E00C027D6 /* Build configuration list for PBXProject "SampleSubPod" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,57 +129,41 @@
 				en,
 				Base,
 			);
-			mainGroup = F2FCE1CF28C9D8F6004EFA05;
-			productRefGroup = F2FCE1D928C9D8F6004EFA05 /* Products */;
+			mainGroup = F2A03CC028CF372E00C027D6;
+			productRefGroup = F2A03CCB28CF372E00C027D6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2FCE1D728C9D8F6004EFA05 /* SampleSubPod */,
+				F2A03CC928CF372E00C027D6 /* SampleSubPod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F2FCE1D628C9D8F6004EFA05 /* Resources */ = {
+		F2A03CC828CF372E00C027D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FCE1FC28C9DB2D004EFA05 /* SampleSubPopUpViewController.xib in Resources */,
-				F2FCE1E828C9D8F6004EFA05 /* LaunchScreen.storyboard in Resources */,
-				F2FCE1F228C9D95D004EFA05 /* ViewController.xib in Resources */,
-				F2FCE1E528C9D8F6004EFA05 /* Assets.xcassets in Resources */,
+				F2A03CDA28CF375100C027D6 /* SampleSubPopUpViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F2FCE1D428C9D8F6004EFA05 /* Sources */ = {
+		F2A03CC628CF372E00C027D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FCE1FB28C9DB2D004EFA05 /* SampleSubPopUpViewController.swift in Sources */,
-				F2FCE1F128C9D95D004EFA05 /* ViewController.swift in Sources */,
-				F2FCE1F528C9DA98004EFA05 /* SampleSubColor.swift in Sources */,
-				F2FCE1DC28C9D8F6004EFA05 /* AppDelegate.swift in Sources */,
+				F2A03CDD28CF377800C027D6 /* SampleSubColor.swift in Sources */,
+				F2A03CDB28CF375100C027D6 /* SampleSubPopUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		F2FCE1E628C9D8F6004EFA05 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2FCE1E728C9D8F6004EFA05 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		F2FCE1EA28C9D8F7004EFA05 /* Debug */ = {
+		F2A03CCF28CF372E00C027D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,6 +197,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -240,10 +222,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F2FCE1EB28C9D8F7004EFA05 /* Release */ = {
+		F2A03CD028CF372E00C027D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,6 +261,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -295,59 +280,65 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F2FCE1ED28C9D8F7004EFA05 /* Debug */ = {
+		F2A03CD228CF372E00C027D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9WF4MU3986;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SampleSubPod/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.victortoya.sample.subpod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victortoya.sample.subpod.SampleSubPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F2FCE1EE28C9D8F7004EFA05 /* Release */ = {
+		F2A03CD328CF372E00C027D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9WF4MU3986;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SampleSubPod/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.victortoya.sample.subpod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victortoya.sample.subpod.SampleSubPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,25 +348,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2FCE1D328C9D8F6004EFA05 /* Build configuration list for PBXProject "SampleSubPod" */ = {
+		F2A03CC428CF372E00C027D6 /* Build configuration list for PBXProject "SampleSubPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2FCE1EA28C9D8F7004EFA05 /* Debug */,
-				F2FCE1EB28C9D8F7004EFA05 /* Release */,
+				F2A03CCF28CF372E00C027D6 /* Debug */,
+				F2A03CD028CF372E00C027D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2FCE1EC28C9D8F7004EFA05 /* Build configuration list for PBXNativeTarget "SampleSubPod" */ = {
+		F2A03CD128CF372E00C027D6 /* Build configuration list for PBXNativeTarget "SampleSubPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2FCE1ED28C9D8F7004EFA05 /* Debug */,
-				F2FCE1EE28C9D8F7004EFA05 /* Release */,
+				F2A03CD228CF372E00C027D6 /* Debug */,
+				F2A03CD328CF372E00C027D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F2FCE1D028C9D8F6004EFA05 /* Project object */;
+	rootObject = F2A03CC128CF372E00C027D6 /* Project object */;
 }

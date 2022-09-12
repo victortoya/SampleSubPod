@@ -7,14 +7,22 @@
 
 import UIKit
 
-class SampleSubPopUpViewController: UIViewController {
+public class SampleSubPopUpViewController: UIViewController {
 
     @IBOutlet weak var containerPopUp: UIView!
     @IBOutlet weak var button: UIButton!
     
-    override func viewDidLoad() {
+    public init() {
+        super.init(nibName: "SampleSubPopUpViewController", bundle: Bundle(for: SampleSubPopUpViewController.self))
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override public func viewDidLoad() {
         super.viewDidLoad()
-        containerPopUp.backgroundColor = SampleSubColor.sampleSubPrimary10
-        button.backgroundColor = SampleSubColor.sampleSubPrimary40
+        containerPopUp.backgroundColor = SampleSubColor.primary10
+        button.backgroundColor = SampleSubColor.primary40
     }
 }
