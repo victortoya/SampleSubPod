@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SampleSubPod"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "SampleSubPod is sample modular SDK for research purpose."
   spec.description  = "SampleSubPod is sample modular SDK for research purpose. It had few modular subspec so user can install base on what they need."
   spec.homepage     = "https://github.com/victortoya/SampleSubPod"
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/victortoya/SampleSubPod.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/victortoya/SampleSubPod.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
