@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SampleSubPod"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.4"
   spec.summary      = "SampleSubPod is sample modular SDK for research purpose."
   spec.description  = "SampleSubPod is sample modular SDK for research purpose. It had few modular subspec so user can install base on what they need."
   spec.homepage     = "https://github.com/victortoya/SampleSubPod"
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.platform     = :ios, "11.0"
 
-  spec.source       = { :git => "https://github.com/victortoya/SampleSubPod.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/victortoya/SampleSubPod.git", :tag => spec.version }
   # spec.source_files  = "SampleSubPod/**/*.{h,m,swift}"
   
   # spec.subspec 'SampleSubPopUp' do |ss|
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   #  ss.dependency 'SampleSubPod/Color'
   # end
 
-  spec.subspec 'SampleSubColor' do |ss|
+  spec.subspec 'Color' do |ss|
     ss.source_files = 'SampleSubPod/Color'
   end
 
